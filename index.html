@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive Website Travel</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">World Of Wanderers (WOW)</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#discover" class="nav__link">Discover</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#place" class="nav__link">Places</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__dark">
+                        <!-- Theme change button -->
+                        <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <img src="assets/img/home3.jpg" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__data-subtitle">Unforgettable India. Hassle-free planning. World Of Wanderers.</span>
+                        <h1 class="home__data-title">From Classics to Offbeat:<br> We've Got You Covered</h1>
+                        <a href="#" class="button">Explore</a>
+
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__info">
+                        <div>
+                            <span class="home__info-title">5 best places to visit</span>
+                            <a href="" class="button button--flex button--link home__info-button">
+                                More <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__info-overlay">
+                            <img src="assets/img/home4.jpg" alt="" class="home__info-img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Beyond the usual.</h2>
+                        <p class="about__description">World Of Wanderers is a one-stop travel 
+                            platform for stress-free exploration across India.
+                             We specialize in crafting customizable itineraries that cater to all interests, 
+                             from must-see landmarks to hidden gems. Our all-inclusive packagestake care of everything, i
+                             ncluding accommodation, transportation, and curated activities. We offer a
+                             unique blend of popular destinations and unexplored offbeat locations, 
+                             ensuring an unforgettable and authentic Indian travel experience.
+                        </p>
+                        <a href="#" class="button">Reserve a place</a>
+                    </div>
+
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="assets/img/Gujarat.jpg" alt="" class="about__img-one">
+                        </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about4.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!--==================== DISCOVER ====================-->
+            <section class="discover section" id="discover">
+                <h2 class="section__title">Discover India's Hidden Gems</h2>
+                
+                <div class="discover__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== DISCOVER 1 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/pondi6.jpeg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Pondicherry</h2>
+                                <span class="discover__description"></span>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 2 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/ladakh5.jpeg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Ladakh</h2>
+                                <span class="discover__description"></span>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 3 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/himachal.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Himachal</h2>
+                                <span class="discover__description"></span>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 4 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/manali5.jpeg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Himachal</h2>
+                                <span class="discover__description"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== EXPERIENCE ====================-->
+            <section class="experience section">
+                <h2 class="section__title">Craft your perfect <br> India adventure</h2>
+
+                <div class="experience__container container grid">
+                    <div class="experience__content grid">
+                        <div class="experience__data">
+                            <h2 class="experience__number"></h2>
+                            <span class="experience__description">Customized <br> Itineraries</span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number"></h2>
+                            <span class="experience__description">Complete <br> Tours</span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number"></h2>
+                            <span class="experience__description">Iconic<br>Landmarks</span>
+                        </div>
+                    </div>
+
+                    <div class="experience__img grid">
+                        <div class="experience__overlay">
+                            <img src="assets/img/ladakh.jpg" alt="" class="experience__img-one">
+                        </div>
+                        
+                        <div class="experience__overlay">
+                            <img src="assets/img/ladakh2.jpg" alt="" class="experience__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            
+
+            <!--==================== PLACES ====================-->
+            <section class="place section" id="place">
+                <h2 class="section__title">Choose Your Destination</h2>
+
+                <div class="place__container container grid">
+                    <!--==================== PLACES CARD 1 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/mumbai.jpeg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">4.8</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Mumbai</h3>
+                                <span class="place__subtitle">Maharashtra</span>
+                                <span class="place__price">₹45,000</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <!--==================== PLACES CARD 2 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/Gir, Gujarat.jpeg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">5.0</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Gir</h3>
+                                <span class="place__subtitle">Gujarat</span>
+                                <span class="place__price">₹50,000</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <!--==================== PLACES CARD 3 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/pondi5.jpeg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">4.7</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Eden Beach</h3>
+                                <span class="place__subtitle">Pondicherry</span>
+                                <span class="place__price">₹45,000</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <!--==================== PLACES CARD 4 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/nubra valley.jpeg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">4.9</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Nubra Valley</h3>
+                                <span class="place__subtitle">Ladakh</span>
+                                <span class="place__price">₹40,000</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <!--==================== PLACES CARD 5 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/shimla.jpeg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">4.8</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Shimla</h3>
+                                <span class="place__subtitle">Himachal Pradesh</span>
+                                <span class="place__price">₹30,000</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+                    <!--==================== PLACES CARD 6 ====================-->
+                <div class="place__card">
+                    <img src="assets/img/goa5.jpeg" alt="" class="place__img">
+                    
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">4.7</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">Panjim</h3>
+                            <span class="place__subtitle">Goa</span>
+                            <span class="place__price">₹40,000</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex place__button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+            
+                </div>
+
+                
+            </section>
+
+            
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <h3 class="footer__title">Travel</h3>
+                        <p class="footer__description">Don't just see India,
+                            <br> experience it. 
+                            <br>Customizable tours for every traveler 
+                            with World Of Wanderers.
+                        </p>
+                        <div>
+                            <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                                <i class="ri-facebook-box-fill"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="footer__social">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                                <i class="ri-youtube-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+    
+                   
+    
+                    
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Support</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Contact Us</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">worldofwanderers@xyz.com</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">9816****85</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                
+
+         <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
